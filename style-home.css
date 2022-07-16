@@ -51,7 +51,7 @@ main {
 }
 
 .diferencial {
-    width: 940px;
+    width: 1200px;
     margin: 0 auto;
     padding: 50px 0;
     cursor: pointer;
@@ -61,12 +61,11 @@ main {
 .diferencial li {
     display: inline-block;
     text-align: center;
-    width: 30%;
+    width: 28%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 10px;
-    box-sizing: border-box;
-    
+    padding: 30px 20px;
+    box-sizing: border-box;    
     border-radius: 15px;
 }
 
@@ -110,10 +109,3 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
-
-
-
-
-
-
-
