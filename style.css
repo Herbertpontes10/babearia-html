@@ -7,7 +7,6 @@ header {
 
 body {
     background: #000000;
-    width: 1520px;
 }
 
 .caixa {
@@ -40,7 +39,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.produto {
+.produtos {
     width: 1200px;
     margin: 0 auto;
     padding: 50px 0;
@@ -63,6 +62,7 @@ nav a:hover {
     box-sizing: border-box;
     border: 2px solid;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 .produtos h2 {
@@ -71,7 +71,6 @@ nav a:hover {
     margin-bottom: 10px;
     text-align: center;
     cursor: pointer;
-    text-decoration: none;
 }
 
 
@@ -95,6 +94,61 @@ nav a:hover {
     margin-top: 10px;
     color: white;
     text-align: center;
+}
+
+.tratamento {
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-bottom: 0%;
+
+}
+
+article {
+    background-color: blue;
+    color: white;
+    padding: 25px 0;
+}
+
+article li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+article li h1 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+article li h1:hover {
+    font-size: 34px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+article li p {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.lista {
+    width: 50%;
+    border: 3px solid whitesmoke;
+    border-radius: 15px;
 }
 
 footer {
